@@ -1,0 +1,124 @@
+body {
+    font-family: 'Dancing Script', cursive;
+}
+
+body::before {
+    position: absolute;
+    background: url(../img/DSC02019.jpg) no-repeat center top/cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    filter: blur(2px);
+}
+
+body::after {
+    position: absolute;
+    background: rgba(0, 0, 0, .6);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    height: 35%;
+    z-index: 1;
+}
+
+
+/* .st1 {
+    transition: 1s;
+    animation-name: ani;
+    animation-duration: 4s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+} */
+
+
+/* .st2,
+.st3,
+.st4,
+.st5 {
+    stroke-dasharray: 445;
+    stroke-dashoffset: 445;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    fill: none;
+    opacity: 1;
+    animation-fill-mode: forwards;
+} */
+
+.st0 {
+    fill: none;
+}
+
+.st1 {
+    enable-background: new;
+}
+
+.st2,
+.st3,
+.st4,
+.st5 {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1;
+    stroke-miterlimit: 10;
+}
+
+.sta {
+    stroke-dasharray: 445;
+    stroke-dashoffset: 445;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    opacity: 1;
+    stroke: #fff;
+}
+
+.st2 {
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(1, 1, 1)
+}
+
+.st3 {
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+.st4 {
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+}
+
+.st5 {
+    animation-delay: 15s;
+    animation-iteration-count: infinite;
+}
+
+
+/* .st3 {
+    stroke-dasharray: 419.9608459472656;
+    stroke-dashoffset: 419.9608459472656;
+    animation-delay: 1s;
+    fill: none;
+    opacity: 1;
+} */
+
+@keyframes ani {
+    from {}
+    to {
+        stroke-dashoffset: 0;
+        stroke-dashoffset: 0;
+    }
+}
