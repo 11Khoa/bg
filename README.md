@@ -1,2 +1,2 @@
-# portfolio
-about me
+# bg
+bg tui tui
